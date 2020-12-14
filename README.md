@@ -4,7 +4,7 @@
 
 OpenSSH の config ファイルをフォーマットする。  
   
--config 引数が指定されない場合は、Windows では %USERPROFILE%\.ssh\config  
+-config 引数が指定されない場合は、Windows では %USERPROFILE%/.ssh/config  
 Linux では $HOME/.ssh/config が更新対象として採用されます。  
 
 実行すると、対象ファイルにある重複する Host ブロックを一つにまとめますが  
@@ -24,4 +24,3 @@ Linux では $HOME/.ssh/config が更新対象として採用されます。
 > fmtsshconf -confirm=false ... 更新の確認をしない
 > fmtsshconf -delhost host-of-delete.local ... 引数の Host ブロックを削除
 ```
-
