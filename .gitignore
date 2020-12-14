@@ -1,0 +1,9 @@
+/bin/
+/pkg/
+*.test
+*.exe
+*.so
+*.out
+*.swp
+go.sum
+__debug_bin
