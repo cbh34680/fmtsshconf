@@ -11,8 +11,7 @@ import (
 )
 
 func main() {
-	// ......
-
+	//
 	argSSHConf := flag.String("config", "", "config path")
 	argConfirm := flag.Bool("confirm", true, "confirm overwrite")
 	argDelHost := flag.String("delhost", "", "delete host")
