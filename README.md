@@ -7,6 +7,8 @@ OpenSSH の config ファイルをフォーマットする。
 -config 引数が指定されない場合は、Windows では %USERPROFILE%/.ssh/config  
 Linux では $HOME/.ssh/config が更新対象として採用されます。  
 
+(但し、Windows でも HOME 環境変数が設定されていた場合は USERPROFILE よりも優先されます。)  
+
 実行すると、対象ファイルにある重複する Host ブロックを一つにまとめますが  
 同一ブロックに複数の重複するパラメータ (ex. "HostName") が存在する場合は  
 最後に出現したものが有効になります。  
