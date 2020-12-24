@@ -1,4 +1,4 @@
-# github.com/cbh34680/fmtsshconf
+# fmtsshconf
 
 ## Description
 
